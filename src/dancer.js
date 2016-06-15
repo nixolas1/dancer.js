@@ -56,6 +56,10 @@
       return new Dancer.Kick( this, options );
     },
 
+    createBeat : function ( options ) {
+      return new Dancer.Beat( this, options );
+    },
+
     bind : function ( name, callback ) {
       if ( !this.events[ name ] ) {
         this.events[ name ] = [];
