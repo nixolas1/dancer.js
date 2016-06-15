@@ -1,4 +1,6 @@
 (function ( undefined ) {
+
+//beat https://github.com/OpenDAWN/UberViz/blob/master/wordproblems/js/AudioHandler.js
   var Kick = function ( dancer, o ) {
     o = o || {};
     this.dancer    = dancer;

@@ -1,7 +1,7 @@
 /*
- * dancer - v0.4.0 - 2014-02-01
+ * dancer - v0.4.0 - 2016-06-15
  * https://github.com/jsantell/dancer.js
- * Copyright (c) 2014 Jordan Santell
+ * Copyright (c) 2016 Jordan Santell
  * Licensed MIT
  */
 (function() {
@@ -293,6 +293,8 @@
 })( window.Dancer );
 
 (function ( undefined ) {
+
+//beat https://github.com/OpenDAWN/UberViz/blob/master/wordproblems/js/AudioHandler.js
   var Kick = function ( dancer, o ) {
     o = o || {};
     this.dancer    = dancer;
