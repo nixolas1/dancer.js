@@ -21,12 +21,12 @@
 
     this.bind( 'update', function() {
       //var spectrum = this.getSpectrum();
-      /*ctx.clearRect( 0, 0, w, h );
+      ctx.clearRect( 0, 0, w, h );
       var size = max_size - this.Beat.bpmTime*max_size;
-      ctx.fillStyle="#020";
-      ctx.fillRect(0,chartH, max_size, max_size);
-      ctx.fillStyle="#0F0";
-      ctx.fillRect((max_size - size)/2,chartH + (max_size - size)/2, size, size);*/
+      ctx.fillStyle = bgFill;
+      ctx.fillRect(0,0, max_size, max_size);
+      //ctx.fillStyle="#0F0";
+      //ctx.fillRect((max_size - size)/2,chartH + (max_size - size)/2, size, size);*/
     });
 
     return this;
